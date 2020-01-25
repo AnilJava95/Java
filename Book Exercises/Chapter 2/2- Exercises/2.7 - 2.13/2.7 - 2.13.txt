@@ -1,0 +1,52 @@
+2.7-
+
+a) Comments
+b) selection statement
+c) arithmetic
+d) division - remainder
+e) innermost
+f) variable
+
+2.8- 
+
+a) System.out.print("Enter an integer: ");
+b) a = b * c;
+c) // Program performs a sample payroll calculation
+
+2.9- 
+
+a) True.
+b) False. X!, a@b are not valid.
+c) False. Division has the highest precedence.
+d) True.
+
+2.10- 
+
+a) x = 10
+b) Value of 5 * 1 is 5
+c) x is 5 and y is 1
+d) 6 is not equal to 5
+
+2.11- 
+
+a) p
+b) -
+c) -
+d) value
+
+2.12- 
+
+a) Correct
+b) Correct
+c) Incorrect
+d) Correct
+e) Incorrect
+f) Incorrect
+
+2.13- 
+
+Precendence of operators from left to right and the result.
+
+a) 3, 1, 2, 4 -> 15
+b) 1, 4, 2, 5, 3 -> 3
+c) 4, 5, 3, 1, 2 -> 324

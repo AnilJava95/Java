@@ -1,0 +1,12 @@
+-Abstract classes are mostly just classes. The only difference is, at least one method 
+ is abstract(has no implementation). This means this abtract class can't be instantiated.
+ Classes who extend this abstract class can be abstract or concrete. Concrete classes 
+ are classes that have no abstract methods.
+
+ Interfaces are not this similar to normal classes. Interfaces can only have static final 
+ variables. Interfaces can only have abstract methods.
+
+ Before Java SE 8, we used to use abstract class when a class was an object of another 
+ class. And we used to use interfaces when a class did a set of functions. But with the 
+ introduction of Java SE 8, interfaces now have default feature and static methods feature.
+ So the difference between them got smaller.

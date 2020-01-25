@@ -1,0 +1,31 @@
+a) r[9]
+
+b) 
+
+   for (int column :g)
+   column = -1;
+
+c) 
+
+   double max = 1,0;
+   for (int counter = 0; counter < 100; counter++)
+   {
+      if (c[counter] > max)
+         max *= c[counter];  
+   }
+        
+
+d) 
+
+   for (int counter = 0; counter < 100; counter++)
+   {
+      b[counter] = a[99 - counter];
+   }
+
+e) 
+
+   int total = 0;
+   for (int counter = 2; counter <= 9; counter++)
+   {
+      total += w[counter];
+   }

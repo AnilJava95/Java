@@ -1,0 +1,10 @@
+a) False. Starts at 0.
+
+b) False. Declaration creates the reference variable that points 
+ to array that will be created later.
+
+c) True.
+
+d) False. They are initialized on creation.
+
+e) True.

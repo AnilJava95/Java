@@ -1,0 +1,5 @@
+-Using get methods makes it so we are not dependent in implementation. We are 
+ decoupled. We can change implementation of how the date is kept however we want 
+ as long as we keep giving the services we gave before. Other programs can keep 
+ using these services to get what they need without caring how its implemented.
+ Makes it easier for the user of the service and makes it more secure.

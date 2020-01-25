@@ -1,0 +1,5 @@
+-An example would be worker hierarchy. When you are a worker you have certain attributes 
+ like name and hire date. But when you are one of the worker groups such as engineers or 
+ teachers, you have more specialized attributes. You can use the parent's constructor to 
+ set your more general attributes. And then your own constructor can set which programming 
+ languages you know. 

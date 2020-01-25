@@ -1,0 +1,20 @@
+3.3-
+
+Local variables;
+
+   Are declared inside methods, 
+   Last as long as the method,
+   Their scope is their method,
+   They are not initialized. 
+
+Instance variables;
+	
+   Are declared outside methods and inside class,
+   Last as long as the object,
+   Their scope depends on their access modifiers and methods that interface them to outside world,
+   They are initialized.
+
+3.4- Method calls are the way we call methods. When we call methods some of them need additional data to 
+ do their job. For example we need operands to add if we have an addition methods. So these values we 
+ give to method at method call are called arguments. Argument values are assigned to local variables in 
+ methods called parameters.

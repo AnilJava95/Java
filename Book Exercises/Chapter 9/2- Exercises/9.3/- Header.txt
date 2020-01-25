@@ -1,0 +1,4 @@
+* Author's name and email: Anil Erturk, anilerturk1@gmail.com
+* Program description: Edited 9.9, 9.10, 9.11 to use composition instead of inheritance.
+* Latest version: 20:32 22/07/2017.
+* Older versions: 

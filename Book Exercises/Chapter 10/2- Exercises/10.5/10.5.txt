@@ -1,0 +1,7 @@
+-Different file formats encode and decode data in different ways. So implementation 
+ of these methods must be customized in concrete classes. This is why our superclass
+ will have methods encode and decode, but they will be abstract.
+
+   public abstract String encode(String data)
+
+   public abstract String decode(String data)

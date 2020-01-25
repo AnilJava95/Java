@@ -1,0 +1,10 @@
+﻿-Win rate is ~49.30%. Thats why it is one of the fairest casino games.
+
+-Win rate in first round is ~66.66%. 8 / 12 * 100 = 66.66%.
+
+-Win rate in non-first round is ~40.5%. Statistics and probability calculation of 
+ this is in statistics_and_probability.jpg
+
+-Average length of a won game is 2.94 while average length of a lost game is 3.80. 
+ Which means your best bet is winning in the first round. Because in non-first rounds
+ your win rate will always be lower than 50.
