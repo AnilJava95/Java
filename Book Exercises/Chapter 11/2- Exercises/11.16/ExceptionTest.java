@@ -2,7 +2,7 @@
  * Author's name and email: Michael
  * Program description: Demonstration that, catch block for type ExceptionA 
  *  catches exceptions of types ExceptionB and ExceptionC.
- * Latest version: 3:10 PM, 9/13/2019.
+ * Latest version: 3:10 PM, 9/13/2019
  * Older versions: 
  */
 

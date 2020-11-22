@@ -29,39 +29,27 @@ h)
 
 i) 
 
-   for (int x = 0; x < table.length; x++)
-   {
-      for (int y = 0; y < table[x].length; y++)
-      {
-         table[x][y] = 0;
-      }
-   }
+   for (int row = 0; row < table.length; row++)
+      for (int column = 0; column < table[row].length; column++)
+         table[row][column] = 0;
 
 j) 
 
-   for (int x = 0; x < t.length; x++)
-   {
-      for (int y = 0; y < t[x].length; y++)
+   for (int row = 0; row < table.length; row++)
+      for (int column = 0; column < table[row].length; column++)
       {
          System.out.print("Enter next element: ");
-         t[x][y] = input.nextInt();
+         table[row][column] = input.nextInt();
       }
-   }
 
 k) 
 
-   int min = 0;
+   int min = Integer.MAX_VALUE;
    
-   for (int[] arrayRow : t)
-   {
-      for (int arrayColumn : arrayRow)
-      {
-         if (arrayColumn < min)
-         {
-            min = arrayColumn;
-         }
-      }
-   }
+   for (int[] row : table)
+      for (int column : row)
+         if (column < min)
+            min = column;
    
    System.out.printf("Minimum number is: %d", min);
 
@@ -72,14 +60,12 @@ m) int total = t[0][2] + t[1][2];
 n) 
 
    System.out.printf("%10s%4s%4s%n%n", "0", "1", "2");
-   
-   for (int row= 0; row < t.length; row ++)
+
+   for (int row = 0; row < table.length; row++)
    {
       System.out.printf("%d. row", row);
-      
-      for (int column = 0; column < t[row].length; column++)
-      {
-         System.out.printf("%4d", t[row][column]);
-      }
+
+      for (int column = 0; column < table[row].length; column++)
+         System.out.printf("%4d", table[row][column]);
       System.out.println("");
    }

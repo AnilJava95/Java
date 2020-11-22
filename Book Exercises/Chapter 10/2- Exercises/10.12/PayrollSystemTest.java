@@ -1,3 +1,18 @@
+/* Author's name and email: Michael, michaeljava95@gmail.com
+ * Program description: Modified the payroll system of Figs. 10.4-10.9 to include 
+ *  private instance variable birthDate(class Date from Fig. 8.7) in class Employee. 
+ *  Added get methods to class Date for month, day and year. Added get method to 
+ *  class Employee for birthDay. In class PayrollSystemTest we create an array of 
+ *  Employee variables to store references to store the various employee objects.
+ *  In a loop, calculate the payroll for each Employee polymorphically, and add 
+ *  $100 bonus to the person's payroll if it's Employee's birth month.
+ * Latest version: 5:03 PM, 11/15/2020. month, day, and year were in wrong places 
+ *  in constructor calls and constructor parameter lists. Also, toString method of 
+ *  Employee class used to call get methods of its birthdate. Now it just calls 
+ *  getBirthdate to invoke toString method of its birthDate.
+ * Older versions: 5:38 PM, 5/2/2019
+ */
+
 import java.time.LocalDate;
 
 // Fig. 10.9: PayrollSystemTest.java
@@ -49,17 +64,17 @@ public class PayrollSystemTest
       // generically process each element in array employees
       for (Employee currentEmployee : employees) 
       {
-         System.out.println(currentEmployee); // invokes toString			
+         System.out.println(currentEmployee); // invokes toString
+			
          // determine whether element is a BasePlusCommissionEmployee
-         if (currentEmployee.getBirthDate().getBirthMonth() == today.getMonthValue()) 
+         if (currentEmployee.getBirthDate().getBirthMonth() == today.getMonthValue())
          {
             System.out.printf("earned $%,.2f%n%n", currentEmployee.earnings() + 100);
-         } 
+         }
 			else
 			{
 				System.out.printf("earned $%,.2f%n%n", currentEmployee.earnings());
 			}
-         
       }
 
       // get type name of each object in employees array

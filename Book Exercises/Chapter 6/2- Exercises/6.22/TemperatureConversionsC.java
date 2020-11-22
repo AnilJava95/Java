@@ -1,28 +1,28 @@
 /*
- * Author's name and email: Anil Erturk, anilerturk1@gmail.com
+ * Author's name and email: Michael, michaeljava95@gmail.com
  * Program description: Enter kelvin or celsius to find its counterpart.
- * Latest version: 14:18 07/02/2019. Instead of doing one after another, i gave 
+ * Latest version: 2:18 PM, 2/7/2019. Instead of doing one after another, i gave 
  *  the user the option to choose which calculation he wants to do.
- * Older versions: 23:10 30/06/2017.
+ * Older versions: 11:10 PM, 6/30/2017
  */
 
 import java.util.Scanner;
 
 public class TemperatureConversionsC
 {
-   public static void main(String[] args)
-   {
-      Scanner input = new Scanner(System.in);
-      
-      double celsius;
-      double kelvin;
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+
+		double celsius;
+		double kelvin;
 		char selection;
-      
+
 		System.out.print("Type 'c' for celsius to kelvin calculation. "
 			+ "Type 'k' for kelvin to celsius calculation: ");
 		selection = input.next().charAt(0);
 		System.out.println();
-		
+
 		if (selection == 'c')
 		{
 			// Enter celsius, calculate kelvin
@@ -47,17 +47,17 @@ public class TemperatureConversionsC
 		{
 			System.out.println("Wrong input.");
 		}
-   }
-   
-   public static double calculateKelvin(double celsius)
-   {
-      double kelvin = celsius + 273.15;
-      return kelvin;
-   }
-   
-   public static double calculateCelsius(double kelvin)
-   {
-      double celsius = kelvin - 273.15;
-      return celsius;
-   }
+	}
+
+	public static double calculateKelvin(double celsius)
+	{
+		double kelvin = celsius + 273.15;
+		return kelvin;
+	}
+
+	public static double calculateCelsius(double kelvin)
+	{
+		double celsius = kelvin - 273.15;
+		return celsius;
+	}
 }

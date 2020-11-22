@@ -2,7 +2,7 @@
  * Author's name and email: Michael
  * Program description: This class has attributes about a passenger useful for 
  *  border protection agents.
- * Latest version: 5:55 PM, 9/10/2019.
+ * Latest version: 5:55 PM, 9/10/2019
  * Older versions: 
  */
 

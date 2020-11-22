@@ -1,5 +1,5 @@
 -When we use protected access modifier, we open up the members to other classes 
- in the same package and subclasses in other packages. We wouldnt want other 
- classes changing our variables directly. That wouldnt be robust programming.
- Using private access modifier for sensitive things and adding public or 
- protected service methods is a better programming practice.
+in the same package and subclasses in other packages. We wouldnt want other 
+classes changing our variables directly. That wouldnt be robust programming.
+Using private access modifier for sensitive variables and adding public or 
+protected service methods is a better programming practice.

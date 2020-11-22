@@ -1,3 +1,5 @@
+// 
+
 // Fig. 10.5: SalariedEmployee.java
 // SalariedEmployee concrete class extends abstract class Employee.
 
@@ -6,10 +8,11 @@ public class SalariedEmployee extends Employee
    private double weeklySalary;
 
    // constructor
-   public SalariedEmployee(String firstName, String lastName, String 
-		socialSecurityNumber, int day, int month, int year, double weeklySalary)
+   public SalariedEmployee(String firstName, String lastName, 
+		String socialSecurityNumber, int month, int day, int year, 
+		double weeklySalary)
    {
-      super(firstName, lastName, socialSecurityNumber, day, month, year); 
+      super(firstName, lastName, socialSecurityNumber, month, day, year); 
 
       if (weeklySalary < 0.0)
          throw new IllegalArgumentException(

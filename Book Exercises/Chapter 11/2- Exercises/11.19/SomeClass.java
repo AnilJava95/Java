@@ -2,7 +2,7 @@
  * Author's name and email: Michael
  * Program description: If constructor parameters are not valid, constrcutor 
  *  throws an exception with the information about construction failure.
- * Latest version: 4:12 PM, 9/13/2019.
+ * Latest version: 4:12 PM, 9/13/2019
  * Older versions: 
  */
 

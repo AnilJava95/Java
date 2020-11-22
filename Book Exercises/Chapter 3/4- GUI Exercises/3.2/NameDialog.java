@@ -1,3 +1,5 @@
+// There is no 3.2 in book but i tried what i talked about in page 134.
+
 // Fig. 3.13: NameDialog.java
 // Obtaining user input from a dialog.
 import javax.swing.JOptionPane;

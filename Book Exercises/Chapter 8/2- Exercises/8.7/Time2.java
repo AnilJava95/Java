@@ -1,3 +1,6 @@
+// We included a tick method that increments the time stored in Time2 object
+// by one second. We also included incrementMinute and incrementHour methods.
+
 // Fig. 8.5: Time2.java
 // Time2 class declaration with overloaded constructors.  
 

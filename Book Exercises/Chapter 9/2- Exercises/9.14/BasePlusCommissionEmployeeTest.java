@@ -1,3 +1,12 @@
+/*
+ * Author's name and email: Michael, michaeljava95@gmail.com
+ * Program description: I took figures 9.10 and 9.11. I also took the two test 
+ *  classes for these classes. Then i created a new class called Employee and 
+ *  i rewrote CommissionEmployee class to extend Employee.
+ * Latest version: 3:33 PM, 4/16/2019
+ * Older versions: 
+ */
+
 // BasePlusCommissionEmployeeTest.java
 // Testing class BasePlusCommissionEmployee.
 
@@ -25,12 +34,16 @@ public class BasePlusCommissionEmployeeTest
          employee.getCommissionRate());
       System.out.printf("%s %.2f%n", "Base salary is",
          employee.getBaseSalary());
+		System.out.printf("%s %.2f%n", "Earnings is",
+         employee.earnings());
 
       employee.setBaseSalary(1000); 
       
       System.out.printf("%n%s:%n%n%s%n", 
          "Updated employee information obtained by toString", 
          employee.toString());
+		System.out.printf("%s %.2f%n", "Earnings is",
+         employee.earnings());
    } // end main
 } // end class BasePlusCommissionEmployeeTest
 

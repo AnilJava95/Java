@@ -1,8 +1,8 @@
+// We reimplemented Time2 class to keep time as seconds.
+// 3:58 AM, 7/22/2017
+
 // Fig. 8.5: Time2.java
 // Time2 class declaration with overloaded constructors.  
-
-// Holding time as seconds internally. 
-// 03:58 22/07/2017. 
 
 public class Time2
 {

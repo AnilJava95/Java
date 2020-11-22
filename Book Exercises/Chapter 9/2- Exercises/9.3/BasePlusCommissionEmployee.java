@@ -1,3 +1,5 @@
+//
+
 // Fig. 9.11: BasePlusCommissionEmployee.java
 // BasePlusCommissionEmployee class inherits from CommissionEmployee 
 // and accesses the superclass�s private data via inherited 
@@ -6,7 +8,7 @@
 public class BasePlusCommissionEmployee
 {
    private double baseSalary; // base salary per week
-   private CommissionEmployee employee;
+   CommissionEmployee employee;
 
    // six-argument constructor
    public BasePlusCommissionEmployee(CommissionEmployee employee, double baseSalary)

@@ -1,2 +1,3 @@
--In Java you have to use increment or decrement operators on variables. 
- You cant increment or decrement an expression like (x + y).
+- In Java you have to use increment or decrement operators on variables. 
+You cant increment or decrement an expression like (x + y). In order 
+to increment (x + y) you can use (x + y) + 1.

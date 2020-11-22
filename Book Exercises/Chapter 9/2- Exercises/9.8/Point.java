@@ -1,7 +1,7 @@
 /*
- * Author's name and email: Michael
- * Program description: Point class holds x and y positions.
- * Latest version: 3:16 AM, 3/31/2019.
+ * Author's name and email: Michael, michaeljava95@gmail.com
+ * Program description: Holds x and y positions.
+ * Latest version: 3:16 AM, 3/31/2019
  * Older versions: 
  */
 

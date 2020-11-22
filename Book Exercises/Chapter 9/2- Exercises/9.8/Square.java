@@ -1,7 +1,7 @@
 /*
- * Author's name and email: Michael
+ * Author's name and email: Michael, michaeljava95@gmail.com
  * Program description: Subclass of Rectangle. Overrides calculateArea method.
- * Latest version: 3:21 AM, 3/31/2019.
+ * Latest version: 3:21 AM, 3/31/2019
  * Older versions: 
  */
 
@@ -11,7 +11,7 @@ public class Square extends Rectangle
 	{
 		super(point1, point2, point3, point4);
 	}
-	
+
 	@Override
 	public float calculateArea()
 	{

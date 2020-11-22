@@ -1,7 +1,7 @@
 /*
- * Author's name and email: Michael
+ * Author's name and email: Michael, michaeljava95@gmail.com
  * Program description: Super class for quadrilateral shapes.
- * Latest version: 3:17 AM, 3/31/2019.
+ * Latest version: 3:17 AM, 3/31/2019
  * Older versions: 
  */
 

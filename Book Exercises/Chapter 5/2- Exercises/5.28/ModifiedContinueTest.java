@@ -1,3 +1,9 @@
+// Modified fig 5.14 to show we can turn a program with a continue statement into 
+// a program without a continue statement.
+
+// We changed the condition of if statement from "if (x = 5)" to 
+// "if (x != 5)" in order to not use continue statement.
+
 // Fig. 5.14: ContinueTest.java
 // changing condition of if statement instead of using continue statement.
 public class ModifiedContinueTest

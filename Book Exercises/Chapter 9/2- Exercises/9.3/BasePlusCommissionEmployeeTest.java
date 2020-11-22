@@ -1,3 +1,14 @@
+/*
+ * Author's name and email: Michael, michaeljava95@gmail.com
+ * Program description: Edited figures 9.9, 9.10, 9.11 to use composition instead 
+ *  of inheritance.
+ * Latest version: 11:14 PM, 8/22/2020. Changed the CommisionEmployee type member 
+ *  of BasePlusCommissionEmployee from private to packager private so we can 
+ *  access its methods when we only have a reference to the 
+ *  BasePlusCommissionEmployee object.
+ * Older versions: 8:32 PM, 7/22/2017
+ */
+
 // BasePlusCommissionEmployeeTest.java
 // Testing class BasePlusCommissionEmployee.
 
@@ -16,15 +27,15 @@ public class BasePlusCommissionEmployeeTest
       System.out.println(
          "Employee information obtained by get methods:");
       System.out.printf("%n%s %s%n", "First name is",
-         cEmployee1.getFirstName());
+         bEmployee1.employee.getFirstName());
       System.out.printf("%s %s%n", "Last name is", 
-         cEmployee1.getLastName());
+         bEmployee1.employee.getLastName());
       System.out.printf("%s %s%n", "Social security number is", 
-         cEmployee1.getSocialSecurityNumber());
+         bEmployee1.employee.getSocialSecurityNumber());
       System.out.printf("%s %.2f%n", "Gross sales is", 
-         cEmployee1.getGrossSales());
+         bEmployee1.employee.getGrossSales());
       System.out.printf("%s %.2f%n", "Commission rate is",
-         cEmployee1.getCommissionRate());
+         bEmployee1.employee.getCommissionRate());
       System.out.printf("%s %.2f%n", "Base salary is",
          bEmployee1.getBaseSalary());
 

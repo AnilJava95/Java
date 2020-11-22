@@ -2,7 +2,7 @@
  * Author's name and email: Michael
  * Program description: We purposely cause an exception and catch it at 
  *  computeAverage method. Then we rethrow it and catch it again at main method.
- * Latest version: 4:35 PM, 9/13/2019.
+ * Latest version: 4:35 PM, 9/13/2019
  * Older versions: 
  */
 

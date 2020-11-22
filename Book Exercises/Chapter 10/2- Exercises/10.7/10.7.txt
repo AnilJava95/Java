@@ -3,6 +3,3 @@
 2) Subclass references can be assigned to subclass variables.
 
 3) Subclass references can be assigned to superclass variables(upcasting).
- Superclass references can't be assigned to subclass variables directly.
- You need to use a cast operator(downcasting) and the superclass reference 
- has to be an object of subclass.

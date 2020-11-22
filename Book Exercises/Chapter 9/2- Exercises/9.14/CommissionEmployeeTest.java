@@ -1,3 +1,5 @@
+// 
+
 // Fig. 9.5: CommissionEmployeeTest.java
 // CommissionEmployee class test program.
 
@@ -22,12 +24,16 @@ public class CommissionEmployeeTest
          employee.getGrossSales());
       System.out.printf("%s %.2f%n", "Commission rate is",
          employee.getCommissionRate());
+		System.out.printf("%s %.2f%n", "Earnings is",
+         employee.earnings());
 
       employee.setGrossSales(5000); 
       employee.setCommissionRate(0.1); 
       
       System.out.printf("%n%s:%n%n%s%n",                                
          "Updated employee information obtained by toString", employee);
+		System.out.printf("%s %.2f%n", "Earnings is",
+         employee.earnings());
    } // end main
 } // end class CommissionEmployeeTest
 

@@ -1,3 +1,5 @@
+// Modified fig 5.12 after changing the setState method
+
 // Fig. 5.12: AutoPolicyTest.java
 // Demonstrating Strings in switch.
 public class AutoPolicyTest
@@ -13,6 +15,9 @@ public class AutoPolicyTest
       // display whether each policy is in a no-fault state
       policyInNoFaultState(policy1);
       policyInNoFaultState(policy2);
+		
+		policy1.setState("CC");
+		policy1.setState("CT");
    }
 
    // method that displays whether an AutoPolicy 

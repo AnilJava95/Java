@@ -1,58 +1,49 @@
 /*
- * Author's name and email: Anil Erturk, anilerturk1@gmail.com
+ * Author's name and email: Michael, michaeljava95@gmail.com
  * Program description: Calculates e over x.
- * Latest version: 19:38 20/05/2017. Changed comments.
- * Older versions: 17:32 09/08/2016.
+ * Latest version: 3:24 AM, 4/8/2020. Instead of calculating the entire factorial 
+ *  every single iteration, we now multiply factorial with counter every iteration 
+ *  to get "factorial counter". We start the iteration from 1 instead of 0 and 
+ *  we start total from 1 instead of 0 because we dont want to have an extra 
+ *  calculation "if (counter > 1)" before "factorial *= counter;". Stopped 
+ *  calculating numerator from start every iteration too. Just like factorial, 
+ *  we multiply with x every iteration to get latest value. These allowed us to 
+ *  get rid of memory and calculation for tempCounter too.
+ * Older versions: 7:38 PM, 5/20/2017. Changed comments.
+ *		5:32 PM, 8/9/2016
  */
 
 import java.util.Scanner;
 
-public class Factorial_C
+public class FactorialC
 {
-   public static void main(String[] args)
-   {
-      Scanner input = new Scanner(System.in);
-      
-      int factorial = 1;
-      int counter = 0;
-      int iterationNumber;
-      double total = 0;
-      int tempCounter;
-      double top = 1;
-      int x;
-      
-      System.out.print("Enter iteration number: ");
-      iterationNumber = input.nextInt();
-      
-      System.out.print("Enter x: ");
-      x = input.nextInt();
-      
-      while (counter < iterationNumber)
-      {
-			tempCounter = counter;
-			
-			// We still find factorials of, 0, 1, 2, etc. but when we say 
-			//  tempCounter - 1 instead if tempcounter, we skip last multiplication.
-			while ((tempCounter - 1) > 0)
-			{
-				factorial *= tempCounter;
-				tempCounter--;
-			}
-			
-			tempCounter = counter;
-			
-			// Using "tempCounter - 1" we get x^0, x^1, x^2 etc.
-			while ((tempCounter - 1) > 0)
-			{
-				top *= x;
-				tempCounter--;
-			}
-			
-			total += ((double) top / factorial);
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+
+		int factorial = 1;
+		int counter = 1;
+		int iterationNumber;
+		double total = 1;
+		double numerator = 1.0;
+		int x;
+
+		System.out.print("Enter iteration number: ");
+		iterationNumber = input.nextInt();
+
+		System.out.print("Enter x: ");
+		x = input.nextInt();
+
+		while (counter < iterationNumber)
+		{
+			factorial *= counter;
+
+			numerator *= x;
+
+			total += (numerator / factorial);
 			System.out.println(total);
-			
-			factorial = 1;
-			counter ++;
-      }
-   }
+
+			counter++;
+		}
+	}
 }

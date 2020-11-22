@@ -1,3 +1,5 @@
+// 
+
 // Fig. 10.4: Employee.java
 // Employee abstract superclass.
 
@@ -10,7 +12,7 @@ public abstract class Employee
 	
    // constructor
    public Employee(String firstName, String lastName, 
-      String socialSecurityNumber, int month, int day, int year)
+		String socialSecurityNumber, int month, int day, int year)
    {
       this.firstName = firstName;
       this.lastName = lastName;
@@ -45,9 +47,8 @@ public abstract class Employee
    @Override
    public String toString()
    {
-      return String.format("%s %s%nsocial security number: %s%nbirthdate: %s/%s/%s", 
-         getFirstName(), getLastName(), getSocialSecurityNumber(), birthDate.
-				getBirthMonth(), birthDate.getBirthDay(), birthDate.getBirthYear());
+      return String.format("%s %s%nsocial security number: %s%nbirthdate: %s", 
+         getFirstName(), getLastName(), getSocialSecurityNumber(), getBirthDate());
    }
 
    // abstract method must be overridden by concrete subclasses

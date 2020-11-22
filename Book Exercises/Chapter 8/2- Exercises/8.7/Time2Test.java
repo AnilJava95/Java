@@ -1,3 +1,6 @@
+// We wrote a program to test the tick, incrementMinute, and incrementHour 
+// methods.
+
 // Fig. 8.6: Time2Test.java
 // Overloaded constructors used to initialize Time2 objects.
 

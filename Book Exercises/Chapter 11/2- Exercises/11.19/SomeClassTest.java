@@ -2,7 +2,7 @@
  * Author's name and email: Michael
  * Program description: Tests the class SomeClass. Creates objects and catches
  *  the exception and prints it.
- * Latest version: 4:12 PM, 9/13/2019.
+ * Latest version: 4:12 PM, 9/13/2019
  * Older versions: 
  */
 

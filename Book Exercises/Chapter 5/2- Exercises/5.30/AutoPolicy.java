@@ -1,3 +1,5 @@
+// Modified fig 5.11 to change the setState method. Now we validate state.
+
 // Fig. 5.11: AutoPolicy.java
 // Class that represents an auto insurance policy.
 public class AutoPolicy

@@ -1,3 +1,5 @@
+// 
+
 // Fig. 10.8: BasePlusCommissionEmployee.java
 // BasePlusCommissionEmployee class extends CommissionEmployee.
 
@@ -6,12 +8,12 @@ public class BasePlusCommissionEmployee extends CommissionEmployee
    private double baseSalary; // base salary per week
 
    // constructor
-   public BasePlusCommissionEmployee(String firstName, String lastName, String 
-		socialSecurityNumber, double grossSales, double commissionRate, int day, 
-		int month, int year, double baseSalary)
+   public BasePlusCommissionEmployee(String firstName, String lastName, 
+		String socialSecurityNumber, int month, int day, int year, double grossSales, 
+		double commissionRate, double baseSalary)
    {
-      super(firstName, lastName, socialSecurityNumber, 
-         grossSales, commissionRate, day, month, year);
+      super(firstName, lastName, socialSecurityNumber,  month, day, year, 
+		grossSales, commissionRate);
 
       if (baseSalary < 0.0) // validate baseSalary                  
          throw new IllegalArgumentException("Base salary must be >= 0.0");

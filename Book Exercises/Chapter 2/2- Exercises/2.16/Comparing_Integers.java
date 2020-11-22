@@ -1,14 +1,14 @@
 /*
- * Author's name and email: Anil Erturk, anilerturk1@gmail.com
+ * Author's name and email: Michael, michaeljava95@gmail.com
  * Program description: Asks user for an integer, obtains it from the user and 
  *  displays whether the number and its square are greater than, equal to, not 
  *  equal to or less than number 100.
- * Latest version: 21:41 26/01/2019. Fixed typo in print of results. It said
+ * Latest version: 9:41 PM, 1/26/2019. Fixed typo in print of results. It said
  *  "System.out.printf("Square of %d > 100%n", number1Squared);". I removed
  *  "Square of".
- * Older versions: 06:43 18/04/2017. Changed comments. Changed some of the 
+ * Older versions: 6:43 AM, 4/18/2017. Changed comments. Changed some of the 
  *  printed messages.
- *		11:23 19.06.2016
+ *		11:23 AM, 6/19/2016
  */
 
 import java.util.Scanner;

@@ -2,7 +2,7 @@
  * Author's name and email: Michael
  * Program description: We purposely cause an exception  at divide method and 
  *  catch it at main method. We are displaying stack unwinding feature.
- * Latest version: 4:48 PM, 9/13/2019.
+ * Latest version: 4:48 PM, 9/13/2019
  * Older versions: 
  */
 

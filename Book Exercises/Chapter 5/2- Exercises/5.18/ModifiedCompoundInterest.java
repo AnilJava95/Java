@@ -1,3 +1,5 @@
+// Modified fig 5,6 to use only integers to calculate the compound interest.
+
 // Fig. 5.6: Interest.java
 // Compound-interest calculations with for.
 
@@ -5,8 +7,8 @@ public class ModifiedCompoundInterest
 {
    public static void main(String args[])
    {
-      double amount; // amount on deposit at end of each year
-      double principal = 100_000.0; // initial amount before interest
+      int amount; // amount on deposit at end of each year
+      int principal = 100_000; // initial amount before interest
       double rate = 0.05; // interest rate
 
       // display headers
@@ -16,10 +18,10 @@ public class ModifiedCompoundInterest
       for (int year = 1; year <= 10; year++) 
       {
          // calculate new amount for specified year
-         amount = principal * Math.pow(1.0 + rate, year);
+         amount = (int) (principal * Math.pow(1 + rate, year));
 
          // display the year and the amount
-         System.out.printf("%4d%,15.0f dollar %2.0f pennies%n",
+         System.out.printf("%4d%,15d dollar %2d pennies%n",
                  year, amount / 100, amount % 100);
       }
    }

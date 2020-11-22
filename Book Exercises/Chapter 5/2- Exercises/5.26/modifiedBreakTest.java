@@ -1,3 +1,6 @@
+// Modified fig 5.13 to show we can turn a program with a break statement into 
+// a program without a break statement.
+
 // Fig. 5.13: BreakTest.java
 // adding another test to cloop continuation condition instead of using break
 public class modifiedBreakTest 

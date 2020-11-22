@@ -1,14 +1,14 @@
 /*
- * Author's name and email: Michael
+ * Author's name and email: Michael, michaeljava95@gmail.com
  * Program description: Tests RationalNumbers class.
- * Latest version: 2:17 PM, 9/7/2019.
+ * Latest version: 2:17 PM, 9/7/2019
  * Older versions: 
  */
 
 public class RationalNumbersTest
 {
-   public static void main(String[] args)
-   {
+	public static void main(String[] args)
+	{
 		RationalNumbers rationalNumber1 = new RationalNumbers(2, 4);
 		RationalNumbers rationalNumber2 = new RationalNumbers(4, 2);
 		RationalNumbers rationalNumber3 = new RationalNumbers(3, 2);
@@ -19,12 +19,13 @@ public class RationalNumbersTest
 		RationalNumbers rationalNumber8 = new RationalNumbers(2, 6);
 		RationalNumbers rationalNumber9 = new RationalNumbers(8, 2);
 		RationalNumbers rationalNumber10 = new RationalNumbers(1, 33);
-		
+
 		RationalNumbers.add(rationalNumber7, rationalNumber8);
 		RationalNumbers.subtract(rationalNumber7, rationalNumber8);
 		RationalNumbers.multiply(rationalNumber7, rationalNumber8);
 		RationalNumbers.divide(rationalNumber9, rationalNumber10);
+		
 		System.out.println(rationalNumber9.toString());
 		System.out.println(rationalNumber10.toStringFloatingPoint(3));
-   }
+	}
 }

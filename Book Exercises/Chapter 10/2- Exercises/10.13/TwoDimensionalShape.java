@@ -1,13 +1,12 @@
 /*
- * Author's name and email: Michael
+ * Author's name and email: Michael, michaeljava95@gmail.com
  * Program description: Abstract class for two dimensional shapes such as 
  *  circle, square and triangle.
- * Latest version: 6:09 PM, 9/12/2019.
+ * Latest version: 6:09 PM, 9/12/2019
  * Older versions: 
  */
 
 public abstract class TwoDimensionalShape extends Shape
 {
-	
 	
 }

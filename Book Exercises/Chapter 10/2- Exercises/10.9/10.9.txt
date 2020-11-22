@@ -1,5 +1,5 @@
 -Before Java SE 8, just adding new methods to an interface would give an error 
- since you didnt implement those new methods in classes that implemented this 
- interface. But with Java SE 8, we can add a new method to our interface and 
- we can supply a default implementation for this method so classes that dont 
- implement this new method dont immediately break.
+since you didn't implement those new methods in classes that implemented this 
+interface. But with Java SE 8, we can add a new method to our interface and 
+we can supply a default implementation for this method so classes that don't 
+implement this new method don't immediately break.

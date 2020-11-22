@@ -1,11 +1,11 @@
 /*
- * Author's name and email: Anil Erturk, anilerturk1@gmail.com
- * Program description: Contains class Date. Class date can hold a 
- *  date that has day, month and year. It can display date.
- * Latest version: 15:00 28/04/2017. Changed comments.
- * Older versions: 19:47 Changed the way we display date. We used to use print 
- *  now we return a formatted string.
- *    19:37 04/07/2016
+ * Author's name and email: Michael, michaeljava95@gmail.com
+ * Program description: Contains class Date. Class date can hold a date that has 
+ *  day, month and year. It can display date.
+ * Latest version: 3:00 PM, 4/28/2017. Changed comments.
+ * Older versions: 7:47 PM, 7/4/2016. Changed the way we display date. We used 
+ *  to use print now we return a formatted string.
+ *    7:37 PM, 7/4/2016
  */
 
 public class Date

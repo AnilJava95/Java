@@ -1,2 +1,0 @@
-We changed the condition of if statement from "if (x = 5)" to 
- "if (x != 5)" in order to not use continue statement.

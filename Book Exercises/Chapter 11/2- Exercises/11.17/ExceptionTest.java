@@ -3,7 +3,7 @@
  * Program description: Demonstration that, catch block for type Exception 
  *  catches exceptions of types ExceptionA, ExceptionB, NullPointerException 
  *  and IOException.
- * Latest version: 3:30 PM, 9/13/2019.
+ * Latest version: 3:30 PM, 9/13/2019
  * Older versions: 
  */
 

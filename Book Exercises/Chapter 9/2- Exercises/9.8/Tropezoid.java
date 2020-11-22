@@ -1,7 +1,7 @@
 /*
- * Author's name and email: Michael
+ * Author's name and email: Michael, michaeljava95@gmail.com
  * Program description: Subclass of Quadrilateral. Defines a calculateArea method.
- * Latest version: 3:18 AM, 3/31/2019.
+ * Latest version: 3:18 AM, 3/31/2019
  * Older versions: 
  */
 
@@ -11,7 +11,7 @@ public class Tropezoid extends Quadrilateral
 	{
 		super(point1, point2, point3, point4);
 	}
-	
+
 	public float calculateArea()
 	{
 		if (getPoint1().getyPosition() == getPoint2().getyPosition())

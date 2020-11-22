@@ -1,3 +1,5 @@
+// We wrote a program to test new implementation of Time2 class.
+
 // Fig. 8.6: Time2Test.java
 // Overloaded constructors used to initialize Time2 objects.
 
