@@ -1,1 +1,0 @@
--Exception handling allows us to not create the object if supplied arguments are not viable.

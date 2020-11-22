@@ -1,3 +1,0 @@
--If exception "A" is more likely to be generated than exception "B", it makes more 
- sense to put catch block for exception "A" first. That way we wont waste time trying 
- to match our exception "A" with the catch block for exception "B".
