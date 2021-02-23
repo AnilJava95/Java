@@ -1,0 +1,56 @@
+1.4- 
+
+a) input
+b) programming
+c) assembly
+d) output
+e) Main Memory - Secondary Memory
+f) Arithmetic Unit
+g) Logic Unit
+h) High Level
+i) Machine Language
+j) CPU
+
+1.5-
+
+a) Java Virtual Machine
+b) Standart Edition - Enterprise Edition - Micro Edition
+c) Bandwidth
+d) Assembler
+
+1.6-
+
+a) Edit - Compile - Load - Verify - Execute
+b) Integrated Development Environment
+c) Java Virtual Machine
+d) Java Virtual Machine
+e) Class loader
+f) Bytecode verifier
+
+1.7-
+
+A Just-In-Time (JIT) compiler is a feature of the run-time interpreter, that instead of 
+interpreting bytecode every time a method is invoked, will compile the bytecode into the 
+machine code instructions of the running machine, and then invoke this object code instead. 
+Ideally the efficiency of running object code will overcome the inefficiency of recompiling 
+the program every time it runs.
+
+1.8-
+
+-Object -> One of the wrist watches that was created.
+
+-Attributes -> Size, color, material, shape, price.
+
+-Behaviours(methods) -> Move time forward, backward, lights on/off, adjust brightness, 
+ set alarm, clear alarm, adjust wrist size, get/set time.
+
+-Class -> Design of the wrist watch.
+
+-Inheritence -> Taking design of wrist watch and designing a new type of wrist watch with light.
+
+-Encapsulation -> A watch contains its own data and functions.
+
+-Interface -> The list of behaviours a watch can do. These behaviours can be implemented in 
+different ways in different watch models.
+
+-Information hiding -> All watches know their own time. they dont know other watch's time.

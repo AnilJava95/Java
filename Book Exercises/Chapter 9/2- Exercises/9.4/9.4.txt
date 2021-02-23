@@ -1,5 +1,0 @@
--Inheritance enables us to not duplicate the same variables and methods. If we want 
-more variables for the more specialized subclass, then we only write those. If we 
-want more methods or same methods with more features we add new methods or override 
-existing ones. Even when we are overriding methods we generally first call super.method 
-and then add some more features. Same thing with constructors.

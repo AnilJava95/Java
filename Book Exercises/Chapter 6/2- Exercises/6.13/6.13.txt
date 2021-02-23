@@ -1,5 +1,0 @@
-a) n = 3 * randomNumbers.nextInt(5);
-
-b) n = Math.pow(2, randomNumbers.nextInt(6));
-
-c) n = 10 + 10 * randomNumbers.nextInt(4);

@@ -1,5 +1,0 @@
-1) Superclass references can be assigned to superclass variables. 
-
-2) Subclass references can be assigned to subclass variables.
-
-3) Subclass references can be assigned to superclass variables(upcasting).

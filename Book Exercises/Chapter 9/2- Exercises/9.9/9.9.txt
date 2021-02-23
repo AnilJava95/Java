@@ -1,7 +1,0 @@
-a) earnings method of superclass is called.
-
-b) Inherited superclass method is overridden. Override 
-annotation checks if signatures of both methods are same.
-
-c) Subclass constructor calls the superclass constructor 
-that takes two parameters.

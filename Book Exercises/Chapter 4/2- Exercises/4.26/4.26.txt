@@ -1,2 +1,0 @@
-- Result is an infinite loop that keeps printing 0 in the same line because row is 
-always 5 and column is always bigger than or equal to 1.

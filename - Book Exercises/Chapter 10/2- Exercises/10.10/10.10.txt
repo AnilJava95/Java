@@ -1,0 +1,1 @@
+-A functional interface is an interface that only has one method.

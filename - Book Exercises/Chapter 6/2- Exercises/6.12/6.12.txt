@@ -1,0 +1,11 @@
+a) n = 2 + randomNumbers.nextInt(5);
+
+b) n = 4 + randomNumbers.nextInt(47);
+
+c) n = randomNumbers.nextInt(8);
+
+d) n = 1000 + randomNumbers.nextInt(31);
+
+e) n = -5 + randomNumbers.nextInt(7);
+
+f) n = -2 + randomNumbers.nextInt(12);

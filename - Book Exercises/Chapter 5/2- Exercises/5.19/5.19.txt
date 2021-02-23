@@ -1,0 +1,7 @@
+a) true
+b) false
+c) true
+d) true
+e) true
+f) false
+g) true

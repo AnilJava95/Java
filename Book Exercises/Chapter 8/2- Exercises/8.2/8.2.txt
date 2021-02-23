@@ -1,3 +1,0 @@
-- Package access is one of four access modifiers in Java. It means it is accessible 
-in the class and in other classes in the same package. Negative aspect of having 
-non private access modifiers is security and robustness of the program.

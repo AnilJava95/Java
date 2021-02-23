@@ -1,0 +1,15 @@
+3.5- It allocates memory(asks for memory from the system) and uses the constructor 
+with the arguments user gave to initialize the object. Than the address of the 
+object is assigned to a reference type variable so we can access it.
+
+3.6- We need a constructor with no parameters.
+
+3.7- Holds attributes of the object.
+
+3.8- Because java.lang package is imported implicitly.
+
+3.9- We could put them in the same package. Or we could use the fully qualified 
+class name.
+
+3.10- Set and get methods allow us to format the way/things you can assign to or 
+display the instance variables.

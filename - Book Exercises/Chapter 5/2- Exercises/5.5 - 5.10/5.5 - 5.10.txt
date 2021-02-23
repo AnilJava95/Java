@@ -1,0 +1,20 @@
+5.5– Control variable, Initial value, Loop controlling condition, increment.
+
+5.6– For includes elements of counter controlled repetition in its header. For is generally 
+used for counter controlled repetition, while is generally used for sentinel controlled 
+repetition.
+
+5.7– Do while would make sense because it is designed to work at least once.
+
+5.8- Break gets out of the repetition or switch statement. Continue skips rest of the statements 
+in repetition’s body and goes to the increment and next iteration in for and goes to the next 
+iteration in while.
+
+5.9– Answer of this question is in the book.
+
+5.10– 
+
+****
+#####
+****
+#####

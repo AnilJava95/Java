@@ -1,0 +1,8 @@
+-One way the keyword super can be used is calling constructor of superclass.
+This has to be the first thing to do in the subclass constructor. A second way 
+we can use the keyword super is calling a member of superclass that is being 
+hidden/overridden by a subclass member.
+
+Calling constructor of superclass makes sure inherited variables are set 
+correctly. And using super.memberName allows us to use non-private members of 
+superclass.

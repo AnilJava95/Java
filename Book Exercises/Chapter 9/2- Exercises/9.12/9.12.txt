@@ -1,3 +1,0 @@
--If the decode method is static, we can use "ParentName.decode()" or 
-"super.decode()" to access it. If it is not static, we can use 
-"super.decode()".

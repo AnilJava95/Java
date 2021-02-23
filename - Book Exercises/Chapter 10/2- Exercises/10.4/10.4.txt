@@ -1,0 +1,6 @@
+-Overloaded constructors are a good example of polymorphism in overloading. We can have a 
+time class that hides how it implements time. We don't know if it keeps time as seconds 
+or minutes or hours or something else. But we have public services we can use to set and 
+get time. When we create time objects, we can create time using only hours, only minutes 
+and hours, only seconds, minutes, and hours, or another time object. No matter which 
+overloaded constructor we execute, our time will be set.

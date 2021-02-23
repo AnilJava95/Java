@@ -1,0 +1,2 @@
+-Interfaces tend to have helper classes that have static helper methods anyway. So 
+moving these static helper methods to interfaces make things simpler.

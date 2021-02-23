@@ -1,0 +1,46 @@
+11.1- InputMismatch, IndexOutOfBounds, Arithmetic, IllegalArgument, NullPointer
+
+11.2- If methods get invalid inputs, their behavior becomes undefined. In order 
+to prevent that, we use exception handling to make sure our program always 
+behaves how we want it to behave.
+ Exceptions are particularly good for dealing with errors produced by methods 
+of classes in the Java API because standard exceptions were created with 
+standart Java API in mind.
+
+11.3- There are different types of resources. Memory (objects), files, database 
+connections, network connections. We need to close these after using them so 
+we don't waste memory or keep a file/DB/network busy so others can use them.
+
+11.4- Catch blocks are skipped and program control goes to finally block if it 
+exists. Then continues with the first statement after finally block. If not, 
+program control goes to the first statement after the last catch block. 
+
+11.5- You will be able to catch all kinds of exceptions with a single catch 
+block. An unexcepted exception won't go uncaught.
+
+11.6- No. Errors are serious problems. Underlying causes should be fixed. Also 
+recovering from errors is unlikely.
+
+11.7- If there are outer layers of try statements, we try to find a matching catch 
+block there. If there are no outer try statements, the exception goes uncaught. 
+Exception's class name, comment, and stack trace are printed. Single-threaded 
+programs tend to crash immediately. Even multi threaded programs get affected 
+since threads tend to work together. 
+
+11.8- First matching catch block executes.
+
+11.9- To catch multiple types of exceptions to handle them the same way. Also 
+to make sure exceptions don't slip past.
+
+11.10- Finally blocks always execute. That's why they are good at releasing 
+used resources.
+
+11.11- First, the finally block executes if there is one. Then the exception will be 
+processed by a catch block (if one exists) associated with an enclosing try block 
+(if one exists).
+
+11.12- Rethrows an exception.
+
+11.13- Try block expires. All local variables are destroyed. If a destroyed 
+reference variable was the only reference for that object, the object is marked 
+for garbage collection.
