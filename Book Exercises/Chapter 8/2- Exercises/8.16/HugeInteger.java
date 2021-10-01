@@ -1,9 +1,9 @@
 /*
  * Author's name and email: Michael, michaeljava95@gmail.com
  * Program description: We have a 40 by 40 int array. Every row is a number that 
- *  consists of 40 digits. Every row is one of the digits of the number. 39th 
- *  index is the smallest digit and 0th index is the biggest digit. Parse 
- *  method sets a value to one of 40 numbers(rows). toString method represents 
+ *  consists of 40 digits. Every column is one of the digits of the number. 39th 
+ *  column is the smallest digit and 0th column is the biggest digit. Parse 
+ *  method sets a value to one of 40 numbers (rows). toString method represents 
  *  one of the numbers as a string. We have other methods that are used in 
  *  arithmetic and logic operations such as add, subtract, isEqualTo, 
  *  isNotEqualTo, isGreaterThan, isLessThan, isGreaterThanOrEqual, 
